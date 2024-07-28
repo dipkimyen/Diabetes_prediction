@@ -43,42 +43,35 @@ To run this project, you need to have Python and the following libraries install
 
 You can install the required libraries using the following command:
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
-Usage
+'''bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter'''
+
+## Usage
 Clone this repository:
-
-bash
-Copy code
-git clone https://github.com/dipkimyen/Diabetes_prediction.git
+'''bash
+git clone https://github.com/dipkimyen/Diabetes_prediction.git'''
 Navigate to the project directory:
-
-bash
-Copy code
-cd Diabetes_prediction
+'''bash
+cd Diabetes_prediction'''
 Open the Jupyter Notebook:
-
-bash
-Copy code
-jupyter notebook
+'''bash
+jupyter notebook'''
 Open the Diabetes_Prediction.ipynb notebook and run the cells to see the data analysis, model training, and evaluation.
 
-Models
+## Models
 The project explores several machine learning models, including:
-
-Logistic Regression
-Decision Tree
-Random Forest
-Support Vector Machine (SVM)
-K-Nearest Neighbors (KNN)
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
 Each model is evaluated based on accuracy, precision, recall, and F1-score.
 
-Results
+## Results
 The results of the model evaluations are summarized in the notebook. The best-performing model is selected based on its performance metrics.
-
-
-Contributing
+![image](https://github.com/user-attachments/assets/91aa3a30-ead3-47a1-9b88-2cc9fa160329)
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or additions.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
